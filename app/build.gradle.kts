@@ -1,9 +1,9 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
-    id ("com.android.application")
+    //id ("com.android.application")
     id ("kotlin-android")
-    id ("kotlin-android-extensions")
+    //id ("kotlin-android-extensions")
 }
 
 android {
@@ -49,4 +49,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
 }

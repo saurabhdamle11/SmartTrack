@@ -1,25 +1,27 @@
 package com.example.smarttrack
 
-
-
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.content_main.*
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+//import kotlinx.android.synthetic.main.activity_main.*
+//import kotlinx.android.synthetic.main.content_main.*
+
 
 class MainActivity : AppCompatActivity() {
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setSupportActionBar(toolbar)
+        //setSupportActionBar(toolbar)
 
         // prepare our List view and RecyclerView (cells)
-        setupRecyclerView(item_list)
+        //setupRecyclerView(item_list)
     }
 
     // recycler view is the list of cells
